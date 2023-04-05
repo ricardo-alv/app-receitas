@@ -1,6 +1,6 @@
 import { View,Text,StyleSheet } from 'react-native';
 
-export function Search() {
+export default function Search() {
  return (
    <View style={styles.container}>
     <Text>Pagina Buscar!!!</Text>

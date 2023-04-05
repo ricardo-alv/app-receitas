@@ -1,6 +1,6 @@
 import { View,Text,StyleSheet } from 'react-native';
 
-export function Logo() {
+export default function Logo() {
  return (
    <View style={styles.logoArea}>
     <Text style={styles.logo}>Receita Fácil</Text>
