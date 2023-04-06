@@ -12,6 +12,7 @@ import { useNavigation } from '@react-navigation/native';
 
 export default function FoodList({ data }) {
   const navigation = useNavigation();
+
  
   function handleNavigate() { 
     navigation.navigate("Detail",{ data:data })
